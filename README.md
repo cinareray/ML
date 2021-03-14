@@ -1,9 +1,11 @@
 # ML
 
 # MAKİNA ÖĞRENİMİ #
-Makina öğrenimi modellerini veri setlerine göre ayrıştırırsak: Elimizde var olan veriler işlenerek daha sonra tahmin yapıldığında 1 veya 0 , kadın yada erkek, hasta yada hasta değil, evet yada hayır gibi sonuclara ulaşılabiliyorsa  Sınıflandırılmış modelleri(Classification_models), eğer veri setlerinin sonucu bir sayısal sonuca ulaşıldığında lineer ve nonlineer regresyon makine modelleri kullanılabilir.
+Makina öğrenimi modellerini veri setlerine göre ayrıştırırsak: Elimizde var olan veriler işlenerek daha sonra tahmin yapıldığında 1 veya 0 , kadın yada erkek, hasta yada hasta değil, evet yada hayır gibi sonuçlara ulaşılabiliyorsa  Sınıflandırılmış modelleri(Classification_models), eğer veri setlerinin sonucu bir sayısal sonuca ulaşıldığında lineer ve nonlineer regresyon makine modelleri kullanılabilir.
 
-Veri setlerinin Model doğrulama yönetemlerinde Holdout Yöntemi(Sınama Seti) ve K.katlı Çapraz Doğrulama (K fold Cross Validation) bulunmaktadır. 
+Veri setlerinin Model doğrulama yöntemlerinde Holdout Yöntemi(Sınama Seti) ve K.katlı Çapraz Doğrulama (K fold Cross Validation) bulunmaktadır. 
+Sınıflandırılmış modellerde diabets (Classification_model dosyasının içinde bulunmaktadır) veri seti kullanılmıştır. Lineer Regresyon modellerinde adversiting ve beyzbol(linear_regression dosyasının içerisinde mevcut) veri setleri kullanılmıştır.
+
 ### data_preparation ###
  Dosyasında ise ;
 * Eksik veri analizi
@@ -44,4 +46,7 @@ Veri setlerinin Model doğrulama yönetemlerinde Holdout Yöntemi(Sınama Seti) 
 * Light GBM 
 * Artifical Neural(Yapay Sinir Ağları)
 
+### Denetimsiz Öğrenme ###
+* K means 
+* Hiyerarşik Kümeleme Analizi
 
